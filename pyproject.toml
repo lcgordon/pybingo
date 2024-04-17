@@ -7,15 +7,18 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pybingo"
-description = ""
+description = "Make randomized bingo boards"
 requires-python = ">=3.9"
 readme = { file = "README.rst", content-type = "text/x-rst" }
 license = { file = "licenses/LICENSE.rst", content-type = "text/plain" }
 authors = [
   { name = "Lindsey Gordon", email = "gordo840@umn.edu" },
 ]
-dependencies = []
-dynamic = ["version"]
+dependencies = ["numpy", 
+                "matplotlib",
+                "pandas"]
+version = "0.1.0"
+dynamic = []
 
 [project.optional-dependencies]
 test = [
