@@ -1,13 +1,13 @@
 
 A silly little package that lets you turn a csv file into randomized bingo boards.
 
-.. code-block:: Python
+```python
     save_dir = "."
     squares_csv = "../../mifa_bingo/spaces.csv" 
     free_space = "How bout \n them Mets?"
     nboards = 2
     pybingo(save_dir, squares_csv, free_space, nboards)
-
+```
 License
 -------
 
