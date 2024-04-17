@@ -1,7 +1,7 @@
 
 A silly little package that lets you turn a csv file into randomized bingo boards.
 
-.. code-block :: Python
+.. code-block:: Python
     save_dir = "."
     squares_csv = "../../mifa_bingo/spaces.csv" 
     free_space = "How bout \n them Mets?"
